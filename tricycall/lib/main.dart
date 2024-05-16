@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tricycall/screens/homepage.dart';
-import 'package:tricycall/screens/screens/homepage.dart';
-import 'package:tricycall/screens/splash_page.dart';
+import 'package:tricycall/screens/splash/splash_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,11 +11,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'TricyCall',
       theme: ThemeData(
         useMaterial3: true,
       ),
-      home: HomePage(),
+      home: SplashPage(),
     );
   }
 }

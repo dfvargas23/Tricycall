@@ -132,18 +132,3 @@ class SignupDriver extends StatelessWidget {
     );
   }
 }
-
-/* if (_selectedRole != null) {
-                    if (_selectedRole == UserRole.driver) {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => SignupDriver()),
-                      );
-                    } else {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => SignupCommuter()),
-                      );
-                    }
-                  } */

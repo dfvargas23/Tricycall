@@ -38,19 +38,17 @@ class _PickAccountState extends State<PickAccount> {
             ),
             const SizedBox(height: 10),
             Container(
-              width: 200, // Set the desired width
-              padding: EdgeInsets.symmetric(
-                  horizontal: 9.0), // Add padding for arrow
+              width: 200,
+              padding: EdgeInsets.symmetric(horizontal: 9.0),
               decoration: BoxDecoration(
-                border: Border.all(), // Add border if needed
-                borderRadius:
-                    BorderRadius.circular(8.0), // Add border radius if needed
+                border: Border.all(),
+                borderRadius: BorderRadius.circular(8.0),
               ),
               child: Column(
                 children: [
                   DropdownButton<UserRole>(
                     hint: Text(
-                      'Select', // Add hint text
+                      'Select',
                       style: TextStyle(
                         fontSize: 16,
                         fontWeight: FontWeight.bold,
@@ -72,10 +70,9 @@ class _PickAccountState extends State<PickAccount> {
                         child: Text('Commuter'),
                       ),
                     ],
-                    icon: const SizedBox
-                        .shrink(), // Remove default dropdown arrow
+                    icon: const SizedBox.shrink(),
                   ),
-                  SizedBox(height: 10), // Add space below the dropdown button
+                  SizedBox(height: 10),
                 ],
               ),
             ),
